@@ -69,28 +69,28 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
-  m_LocalRotation: {x: 0.5, y: 0, z: 0, w: 0.8660254}
-  m_LocalPosition: {x: 30.32, y: 11.2, z: 5.16}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400004}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 60, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &400004
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.2588191, y: 0, z: 0, w: 0.9659258}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400000}
   m_Father: {fileID: 400002}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 30, y: 0, z: 0}
 --- !u!20 &2000000
 Camera:
   m_ObjectHideFlags: 1
@@ -184,7 +184,7 @@ MonoBehaviour:
     lockTargetTransform: {fileID: 0}
     movement:
       lockTransitionRate: 0.1
-      cameraMovementRate: 10
+      cameraMovementRate: 50
       edgeHoverMovement: 1
       edgeHoverOffset: 10
       defualtHeight: 0
@@ -194,14 +194,14 @@ MonoBehaviour:
       constRotationRate: 0
       lockRotationX: 1
       lockRotationY: 1
-      defualtRotation: {x: -45, y: 0}
+      defualtRotation: {x: -60, y: 0}
       cameraRotationRate: {x: 100, y: 100}
     zoom:
       invertZoom: 0
       defaultZoom: 15
       minZoom: 10
-      maxZoom: 20
-      zoomRate: 10
+      maxZoom: 30
+      zoomRate: 1000
       constZoomRate: 0
 --- !u!124 &12400000
 Behaviour:

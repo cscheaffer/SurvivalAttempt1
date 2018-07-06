@@ -68,6 +68,13 @@
     <Compile Include="Assets\Resources\Moba_Camera\TestFiles\Scripts\DemoSwitchTarget.cs" />
     <Compile Include="Assets\Resources\Moba_Camera\TestFiles\Scripts\DemoTarget.cs" />
     <Compile Include="Assets\Resources\Moba_Camera\TestFiles\Scripts\DemoUI_Controls.cs" />
+    <Compile Include="Assets\Resources\Units\DragonTerrorBringer\Scripts\CameraControlTB.cs" />
+    <Compile Include="Assets\Resources\Units\DragonTerrorBringer\Scripts\MaterialChangeTB.cs" />
+    <Compile Include="Assets\Resources\Units\DragonTerrorBringer\Scripts\playerControlTB.cs" />
+    <Compile Include="Assets\Scripts\ClickToMove.cs" />
+    <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Hero.cs" />
+    <Compile Include="Assets\Scripts\Unit.cs" />
     <Compile Include="Assets\Terrain\GreenForest\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
     <Compile Include="Assets\Terrain\GreenForest\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
     <Compile Include="Assets\Terrain\GreenForest\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
@@ -155,11 +162,11 @@
     <None Include="Assets\Terrain\GreenForest\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
     <None Include="Assets\Terrain\GreenForest\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
     <None Include="Assets\Terrain\GreenForest\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/Program Files/Survival/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/Program Files/Survival/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>D:/Program Files/Survival/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity2018.1.6/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
