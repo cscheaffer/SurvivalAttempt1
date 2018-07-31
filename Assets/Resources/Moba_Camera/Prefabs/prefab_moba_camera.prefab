@@ -180,7 +180,7 @@ MonoBehaviour:
       button_camera_move_backward: Moba Camera Move Backward
   settings:
     useBoundaries: 1
-    cameraLocked: 0
+    cameraLocked: 1
     lockTargetTransform: {fileID: 0}
     movement:
       lockTransitionRate: 0.1

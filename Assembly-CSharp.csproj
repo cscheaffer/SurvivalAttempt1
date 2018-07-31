@@ -74,6 +74,10 @@
     <Compile Include="Assets\Scripts\ClickToMove.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\Hero.cs" />
+    <Compile Include="Assets\Scripts\MainHUDScreen.cs" />
+    <Compile Include="Assets\Scripts\PlayerTargetting.cs" />
+    <Compile Include="Assets\Scripts\Spell.cs" />
+    <Compile Include="Assets\Scripts\SpellController.cs" />
     <Compile Include="Assets\Scripts\Unit.cs" />
     <Compile Include="Assets\Terrain\GreenForest\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
     <Compile Include="Assets\Terrain\GreenForest\PostProcessing\Runtime\Attributes\MinAttribute.cs" />

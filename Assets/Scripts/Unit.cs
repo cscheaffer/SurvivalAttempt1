@@ -6,4 +6,5 @@ public class Unit : MonoBehaviour {
 
     public float Health;
     public float Damage;
+    public float movementSpeed;
 }
